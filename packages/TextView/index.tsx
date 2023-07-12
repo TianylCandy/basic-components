@@ -6,7 +6,7 @@ export interface TextViewProps {
 }
 
 const TextView = ({ children }: TextViewProps) => {
-  return <div className="text-views">{children}活动环节大健康</div>;
+  return <div className="text-views">{children}text</div>;
 };
 
 export default TextView;
