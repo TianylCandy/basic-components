@@ -4,7 +4,7 @@ var TextView = function TextView(_a) {
   var children = _a.children;
   return /*#__PURE__*/React.createElement("div", {
     className: "text-view"
-  }, "\u7ED9\u4E2A\u54C8\u54C8\u54C8", children);
+  }, "\u7ED9\u4E2A\u54C8\u54C8\u54C82", children);
 };
 
 /*! *****************************************************************************
@@ -47,8 +47,7 @@ function __rest(s, e) {
 
 var Mp4Player = function Mp4Player(_a) {
   var url = _a.url,
-      props = __rest(_a, ["url"]);
-
+    props = __rest(_a, ["url"]);
   return /*#__PURE__*/React.createElement("video", __assign({
     src: url,
     autoPlay: true,
