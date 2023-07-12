@@ -3,8 +3,8 @@ import React from 'react';
 var TextView = function TextView(_a) {
   var children = _a.children;
   return /*#__PURE__*/React.createElement("div", {
-    className: "text-view"
-  }, "\u7ED9\u4E2A\u54C8\u54C8\u54C82", children);
+    className: "text-views"
+  }, "\u7ED9\u4E2A\u54C8\u54C8\u54C82", children, "\u6D3B\u52A8\u73AF\u8282\u5927\u5065\u5EB7");
 };
 
 /*! *****************************************************************************

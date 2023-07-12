@@ -1,6 +1,6 @@
 {
   "name": "jobsofferings-ui-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "author": "candy",
   "description": "your own React component library using Rollup, TypeScript, Less and Storybook",
@@ -26,6 +26,7 @@
     "typescript": "3.8.3"
   },
   "dependencies": {
+    "jobsofferings-ui-components": "github:TianylCandy/basic-components#0.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "typescript": "3.8.3"

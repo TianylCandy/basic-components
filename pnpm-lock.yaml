@@ -15,6 +15,7 @@ specifiers:
   babel-loader: ^8.2.2
   babel-preset-react-app: ^10.0.0
   husky: ^4.3.0
+  jobsofferings-ui-components: github:TianylCandy/basic-components#0.0.3
   less: ^4.1.2
   less-loader: ^5.0.0
   lint-staged: ^10.5.3
@@ -37,6 +38,7 @@ specifiers:
   typescript: 3.8.3
 
 dependencies:
+  jobsofferings-ui-components: github.com/TianylCandy/basic-components/d3276be638325e9468b3fa0618a613132e6db76f_yyisfcm22i5s4l5jft6rl3qnvy
   react: 16.14.0
   react-dom: 16.14.0_react@16.14.0
   typescript: 3.8.3
@@ -14186,3 +14188,18 @@ packages:
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
     dev: true
+
+  github.com/TianylCandy/basic-components/d3276be638325e9468b3fa0618a613132e6db76f_yyisfcm22i5s4l5jft6rl3qnvy:
+    resolution: {tarball: https://codeload.github.com/TianylCandy/basic-components/tar.gz/d3276be638325e9468b3fa0618a613132e6db76f}
+    id: github.com/TianylCandy/basic-components/d3276be638325e9468b3fa0618a613132e6db76f
+    name: jobsofferings-ui-components
+    version: 0.0.3
+    peerDependencies:
+      react: ^16.13.1
+      react-dom: ^16.13.1
+      typescript: 3.8.3
+    dependencies:
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      typescript: 3.8.3
+    dev: false
